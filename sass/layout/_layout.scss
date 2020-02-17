@@ -1,13 +1,9 @@
 /*code thème page + menu */
 //couleur du body
-html{
-    overflow-x:hidden
-}
 body{
-    overflow-x:hidden;
     background:  rgb(79, 101, 212);
     color: rgb(65, 53, 6);
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 //encadrement et mise en forme du main
@@ -15,12 +11,9 @@ body{
     background:map-get($fond, color1);
     color:map-get($fond, color_pol);
     margin: 0;
-    margin-right: 0;
     border-radius: 50px;
 }
 .formation{
-    background:map-get($fond, color1);
-    color:map-get($fond, color_pol);
     padding: 0;
     margin: 0;
     border-radius: 50px;
