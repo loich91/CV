@@ -1,0 +1,29 @@
+/*ordre de priorité des éléments sass
+
+1)tout ce qui est contenu dans le dossier base
+
+
+
+*/
+
+//variable
+
+@import "base/variable";
+@import"base/picture";
+@import "base/formePolice";
+
+// 1. Reset
+//@import "base/reset";
+
+// 2. Base
+//@import "base/base";
+
+// 3. Layout
+@import "layout/layout";
+
+// 4. Charger les modules
+//@import "modules/index";
+
+
+
+
