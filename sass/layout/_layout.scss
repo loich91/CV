@@ -11,6 +11,7 @@ body{
     background:map-get($fond, color1);
     color:map-get($fond, color_pol);
     margin: 0;
+    margin-right: -11%;
     border-radius: 50px;
 }
 .formation{
