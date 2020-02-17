@@ -1,5 +1,8 @@
 /*code thème page + menu */
 //couleur du body
+html{
+    overflow-x: hidden; //horizontal
+}
 body{
     background:  rgb(79, 101, 212);
     color: rgb(65, 53, 6);
