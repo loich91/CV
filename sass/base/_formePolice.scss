@@ -2,13 +2,16 @@
 .job{
     margin-left: 30px;
 }
+.email{
+    color:map-get($fond , color_pol );
+}
 h3{
     margin-bottom:30px;
-    color:white;
+    color:map-get($fond , color_pol );
     margin-left: 30px;
 }
 .close{
-    color:white;
+    color:map-get($fond , color_pol );
 }
 .bio{
 padding: 0px;
