@@ -239,6 +239,7 @@ body{
         position: relative;
         position: fixed;
         display: block;
+        overflow-y: hidden; //horizontal
     }
     .l-main-menu nav ul li {
         display: inline-block;
