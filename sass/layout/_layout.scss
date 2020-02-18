@@ -269,7 +269,7 @@ body{
     }
 }
 //modification body et theme pour le responsive desktop
-@media only screen and (min-width : 1000px){
+@media only screen and (min-width : 1500px){
     .presentation{
         margin: 40px;
         padding: 40px;
@@ -281,7 +281,7 @@ body{
     }
 }
 //menu responsive desktop
-@media only screen and (min-width : 1000px){
+@media only screen and (min-width : 1500px){
     .menuham{
         display: none;
         padding:0;
@@ -316,7 +316,7 @@ body{
     }
 }
 //timeline responsive pour desktop 
-@media only screen and (min-width : 1000px){
+@media only screen and (min-width : 1500px){
     .timeline-body ul li{
         padding: 10px;
     }
