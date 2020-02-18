@@ -24,8 +24,6 @@ body{
     margin: 0;
     border-radius: 50px;
 }
-
-
 //couleur et aménagement du menu pour la version mobile
 .l-main-menu nav ul {
     padding-left:0;
@@ -207,7 +205,6 @@ body{
 .timeline-body > p + p {
     margin-top: 5px;
 }
-
 //modification body et theme pour le responsive tablette
 @media only screen and (min-width : 750px){
     .presentation{
@@ -219,7 +216,6 @@ body{
         padding: 30px;
     }
 }
-
 //menu responsive tablette
 @media only screen and (min-width : 750px){
     body{
@@ -268,9 +264,6 @@ body{
         color: inherit;
     }
 }
-
-
-
 //modification body et theme pour le responsive desktop
 @media only screen and (min-width : 1000px){
     .presentation{
@@ -283,7 +276,6 @@ body{
         padding: 50px;
     }
 }
-
 //menu responsive desktop
 @media only screen and (min-width : 1000px){
     .menuham{
@@ -331,7 +323,6 @@ body{
         margin-top: 0;
         color: inherit;
     }
-
 }
 
 

@@ -5,9 +5,7 @@
     margin-left: 30px;
     margin-bottom: 30px;
 };
-.slider{
-    text-emphasis: left;
-}
+
 .mySlides{
     width: map-get($mySlides , width );
     height: map-get($mySlides , height );
