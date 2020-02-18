@@ -226,6 +226,9 @@ body{
         margin: 0;
         padding: 0;
     }
+    .presentation{
+        margin-top: 100px;
+    }
     .menuham{
         display: none;
         padding:0;
@@ -240,7 +243,6 @@ body{
         position: fixed;
         display: block;
         overflow-y: hidden; //vertical
-        margin-bottom: 30px;
     }
     .l-main-menu nav ul li {
         display: inline-block;
