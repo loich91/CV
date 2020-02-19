@@ -5,7 +5,10 @@ div {
     padding-right: 0px;
 }
 body{
-    background:  rgb(79, 101, 212);
+    background-image: url(../img/board-453758_640.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
     color: rgb(65, 53, 6);
     margin:0;
     padding: 0;
@@ -34,17 +37,18 @@ body{
 
 .l-main-menu{
     display: none;
-    background: black;
+    background: rgb(156, 155, 155);
     z-index: 1000;
-    opacity: 0.90;
+    //opacity: 0.80;
     //position: fixed;
+
 } 
 .menuham{
     display: block;
     width: 150px
 }
 .l-main-menu.is-visible{
-    display: inline-block;
+    display: block;
 }
 .close{
     display: inline;
@@ -53,7 +57,7 @@ body{
         display: none;
 }
 .l-main-menu nav ul li a{
-        color:map-get($fond, color_pol);
+        color:map-get($fond, color1);
         text-decoration:none;
         padding: 20px;
 }
@@ -238,11 +242,12 @@ body{
     }
     .l-main-menu {
         top:0;
-        background: black;
         position: relative;
         position: fixed;
         display: block;
         overflow-y: hidden; //vertical
+        right:0;
+        left:0;
     }
     .l-main-menu nav ul li {
         display: inline-block;
@@ -292,10 +297,11 @@ body{
     .l-main-menu {
         overflow-y: hidden; //horizontal
         top:0;
-        background: black;
         position: relative;
         position: fixed;
         display: block;
+        right:0;
+        left:0;
     }
     .l-main-menu nav ul{
         margin-left:150px
